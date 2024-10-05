@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavBar } from './components/NavBar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Technologies from './components/technologies'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import { NavBar } from './components/NavBar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Tech from './components/Tech';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+
 
 const App = () => {
   return (
@@ -17,8 +17,7 @@ const App = () => {
        <NavBar/>
        <Hero/>
        <About/> 
-       <Technologies/>
-    
+       <Tech/>
        <Projects/>
        <Contact/>
       </div>
