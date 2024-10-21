@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/black_pic.png"
 
 const container = (delay) => ({
     hidden: {x: -100, opacity: 0},
@@ -34,10 +34,14 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
                     <motion.img 
-                    initial={{x:100, opacity: 0}} 
+                    //comment
+                    initial={{x:99, opacity: 0}} 
                     animate={{x:0, opacity: 1}}
                     transition={{duration: 1, delay: 1.2}}
-                    src={profilePic} alt="LANAD Anis" />
+                    src={profilePic} 
+                    alt="LANAD Anis"
+                    className="h-84 rounded-lg"  // Ajuste ici la hauteur et arrondi les bords
+                    />
                 </div>
             </div>
         </div>
