@@ -84,7 +84,7 @@ export const PROJECTS = [
     image: projet6,
     description:
       "A robust security solution designed to ensure secure client-server communications, utilizing smart card technology to authenticate users and protect sensitive data.",
-    technologies: ["wordpress"],
+    technologies: ["java card, java, java fx, sqlite, RSA, Elliptic curve"],
   },
 
 
